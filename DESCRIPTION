@@ -1,0 +1,19 @@
+Package: africa
+Type: Package
+Title: Administrative Boundaries for 57 African Countries
+Version: 0.1.0
+Authors@R: person("Sam", "Boysel", email = "sboysel@gmail.com", role = c("aut", "cre"))
+URL: https://github.com/sboysel/africa
+BugReports: http://github.com/sboysel/africa/issues
+Description: Administrative boundaries for 57 African countries as a
+    SpatialPolygonsDataFrame.
+Depends:
+    R (>= 3.2.2)
+Imports:
+    sp
+Suggests:
+    ggplot2,
+    rgeos
+License: CC0
+LazyData: TRUE
+RoxygenNote: 5.0.1

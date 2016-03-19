@@ -1,0 +1,7 @@
+packrat/
+packrat/
+.Rproj.user
+.Rhistory
+.Rprofile
+*.Rproj
+data-raw/*.rds
