@@ -1,4 +1,4 @@
-#' Administrative Boundaries for 57 Countries within the African Continent
+#' Administrative Boundaries for 58 Countries within the African Continent
 #'
 #' \describe{
 #' \item{ISO, ISO2, ISON}{}

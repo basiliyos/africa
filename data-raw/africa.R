@@ -17,6 +17,10 @@ afr.list <- readr::read_csv(continent.url, na = "", skip = 1,
                    by = "ISO2") %>%
   mutate(ISO3 = ifelse(is.na(ISO3), "NAM", ISO3))
 
+# South Sudan
+afr.list <- data.frame(ISO2 = "SS", ISO3 = "SSD") %>%
+  dplyr::bind_rows(afr.list, .)
+
 # Get data
 load_rasters <- function(cc) {
   data <- raster::getData(name = "GADM", country = cc,
