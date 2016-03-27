@@ -8,8 +8,7 @@ BugReports: http://github.com/sboysel/africa/issues
 Description: Administrative boundaries for 57 African countries as a
     SpatialPolygonsDataFrame.
 Depends:
-    R (>= 3.2.2)
-Imports:
+    R (>= 3.2.2),
     sp
 Suggests:
     ggplot2,
