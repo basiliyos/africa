@@ -5,3 +5,5 @@ packrat/
 .Rprofile
 *.Rproj
 data-raw/*.rds
+data-raw/zip*
+data-raw/shp*
