@@ -12,7 +12,7 @@ library(africa)
 
 ## Source
 
-[Natural Earth](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+[Natural Earth](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/).  Preview the [raw data](https://github.com/sboysel/africa/blob/master/data-raw/africa-10m.json).
 
 ## TODO
 
